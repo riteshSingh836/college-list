@@ -1,0 +1,167 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container Styling */
+  .college-table-container {
+    padding: 20px;
+    background: linear-gradient(to right, #a18cd1, #fbc2eb);
+    min-height: 100vh;
+  }
+  
+  /* Title */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4e4376;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Search Input */
+  .search-input {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 20px;
+    width: 80%;
+    max-width: 500px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #555;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    transform: scale(1.05);
+    border: 2px solid #7f53ac;
+  }
+  
+  /* Table Styling */
+  .college-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .table-header {
+    background-color: #6a0572;
+    color: #fff;
+  }
+  
+  .table-header th {
+    padding: 20px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    text-transform: uppercase;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .sortable:hover {
+    background-color: #9e0e5d;
+    color: #fff;
+  }
+  
+  .table-body .table-row {
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .table-body .table-row:nth-of-type(even) {
+    background-color: #f3e5f5;
+  }
+  
+  .table-body .table-row:hover {
+    background-color: #f1c3ff;
+    transform: scale(1.02);
+  }
+  
+  .rank, .fees, .placement, .user-reviews, .rating, .featured-college {
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  
+  .college-name {
+    padding: 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .featured-college {
+    font-weight: bold;
+    color: #00bfa6;
+    transition: color 0.3s ease;
+  }
+  
+  .featured-college::before {
+    content: "✨ ";
+    display: inline-block;
+    color: #ffb74d;
+  }
+  
+  /* Infinite Scroll Loader */
+  .loader {
+    text-align: center;
+    margin: 20px;
+    color: #6a0572;
+    transition: color 0.3s ease;
+  }
+  
+  .end-message {
+    text-align: center;
+    margin: 20px;
+    color: #6a0572;
+    transition: color 0.3s ease;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .college-table, .table-header, .table-body .table-row {
+      display: block;
+      width: 100%;
+    }
+  
+    .table-header th {
+      display: none;
+    }
+  
+    .table-body .table-row {
+      border-bottom: 0;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      border-radius: 10px;
+    }
+  
+    .rank, .fees, .placement, .user-reviews, .rating, .featured-college, .college-name {
+      display: block;
+      padding: 10px;
+      font-size: 16px;
+      text-align: left;
+    }
+  
+    .college-name {
+      font-size: 18px;
+      font-weight: bold;
+      color: #7f53ac;
+    }
+  }
+  

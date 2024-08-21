@@ -1,0 +1,223 @@
+[
+    {
+      "id": 1,
+      "name": "ABC Engineering College",
+      "rank": 1,
+      "fees": 120000,
+      "placement": 85,
+      "user_reviews": 4.5,
+      "rating": 4.7,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "XYZ Business School",
+      "rank": 2,
+      "fees": 150000,
+      "placement": 90,
+      "user_reviews": 4.3,
+      "rating": 4.6,
+      "featured": false
+    },
+    {
+      "id": 3,
+      "name": "LMN Medical College",
+      "rank": 3,
+      "fees": 180000,
+      "placement": 88,
+      "user_reviews": 4.4,
+      "rating": 4.5,
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "PQR Law School",
+      "rank": 4,
+      "fees": 140000,
+      "placement": 80,
+      "user_reviews": 4.1,
+      "rating": 4.4,
+      "featured": false
+    },
+    {
+      "id": 5,
+      "name": "DEF Arts College",
+      "rank": 5,
+      "fees": 100000,
+      "placement": 70,
+      "user_reviews": 4.0,
+      "rating": 4.3,
+      "featured": true
+    },
+    {
+      "id": 6,
+      "name": "GHI Commerce College",
+      "rank": 6,
+      "fees": 90000,
+      "placement": 75,
+      "user_reviews": 4.2,
+      "rating": 4.1,
+      "featured": false
+    },
+    {
+      "id": 7,
+      "name": "JKL Science Institute",
+      "rank": 7,
+      "fees": 110000,
+      "placement": 82,
+      "user_reviews": 4.3,
+      "rating": 4.2,
+      "featured": true
+    },
+    {
+      "id": 8,
+      "name": "STU Design School",
+      "rank": 8,
+      "fees": 95000,
+      "placement": 78,
+      "user_reviews": 4.1,
+      "rating": 4.0,
+      "featured": false
+    },
+    {
+      "id": 9,
+      "name": "VWX Technology Institute",
+      "rank": 9,
+      "fees": 130000,
+      "placement": 85,
+      "user_reviews": 4.4,
+      "rating": 4.5,
+      "featured": true
+    },
+    {
+      "id": 10,
+      "name": "YZA Business College",
+      "rank": 10,
+      "fees": 115000,
+      "placement": 88,
+      "user_reviews": 4.6,
+      "rating": 4.7,
+      "featured": false
+    },
+    {
+      "id": 11,
+      "name": "EFG Engineering Institute",
+      "rank": 11,
+      "fees": 125000,
+      "placement": 83,
+      "user_reviews": 4.3,
+      "rating": 4.4,
+      "featured": true
+    },
+    {
+      "id": 12,
+      "name": "HIJ Medical School",
+      "rank": 12,
+      "fees": 170000,
+      "placement": 90,
+      "user_reviews": 4.5,
+      "rating": 4.6,
+      "featured": true
+    },
+    {
+      "id": 13,
+      "name": "KLM Arts & Science College",
+      "rank": 13,
+      "fees": 95000,
+      "placement": 72,
+      "user_reviews": 4.0,
+      "rating": 4.2,
+      "featured": false
+    },
+    {
+      "id": 14,
+      "name": "NOP Business School",
+      "rank": 14,
+      "fees": 135000,
+      "placement": 87,
+      "user_reviews": 4.4,
+      "rating": 4.5,
+      "featured": true
+    },
+    {
+      "id": 15,
+      "name": "QRS Law Institute",
+      "rank": 15,
+      "fees": 145000,
+      "placement": 80,
+      "user_reviews": 4.1,
+      "rating": 4.3,
+      "featured": false
+    },
+    {
+      "id": 16,
+      "name": "TUV Engineering School",
+      "rank": 16,
+      "fees": 120000,
+      "placement": 82,
+      "user_reviews": 4.3,
+      "rating": 4.4,
+      "featured": true
+    },
+    {
+      "id": 17,
+      "name": "WXY Technology College",
+      "rank": 17,
+      "fees": 110000,
+      "placement": 86,
+      "user_reviews": 4.5,
+      "rating": 4.6,
+      "featured": true
+    },
+    {
+      "id": 18,
+      "name": "ZAB Medical Institute",
+      "rank": 18,
+      "fees": 190000,
+      "placement": 91,
+      "user_reviews": 4.6,
+      "rating": 4.7,
+      "featured": false
+    },
+    {
+      "id": 19,
+      "name": "CDE Business Institute",
+      "rank": 19,
+      "fees": 140000,
+      "placement": 85,
+      "user_reviews": 4.3,
+      "rating": 4.4,
+      "featured": false
+    },
+    {
+      "id": 20,
+      "name": "FGH Arts Institute",
+      "rank": 20,
+      "fees": 90000,
+      "placement": 75,
+      "user_reviews": 4.1,
+      "rating": 4.2,
+      "featured": true
+    },
+    {
+      "id": 21,
+      "name": "IJK Design College",
+      "rank": 21,
+      "fees": 100000,
+      "placement": 78,
+      "user_reviews": 4.2,
+      "rating": 4.3,
+      "featured": false
+    },
+    {
+      "id": 22,
+      "name": "LMN Technology School",
+      "rank": 22,
+      "fees": 125000,
+      "placement": 89,
+      "user_reviews": 4.5,
+      "rating": 4.6,
+      "featured": true
+    }
+  ]
+  
